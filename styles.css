@@ -22,3 +22,9 @@ h1, h2, h3, h4, p {
     border-radius: 50%;
     border: 6px solid #dc2f02;
 }
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
