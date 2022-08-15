@@ -1,5 +1,6 @@
 # Birthday App #
-A birthday card to celebrate Wolfgang Amadeus Mozart's birthday.
+A birthday card to celebrate Wolfgang Amadeus Mozart's birthday. 
+Features several GIFts, gift icons to click on to reveal funny Gif images.
 
 # Tools Used in this App #
 HTML5
