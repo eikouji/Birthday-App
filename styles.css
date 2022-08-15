@@ -1,26 +1,43 @@
 body {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    background: rgb(110,180,214);
-    background: linear-gradient(21deg, 
-        rgba(110,180,214,1) 2%,
-        rgba(156,157,232,1) 54%, 
-        rgba(0,108,236,1) 86%);
-    color: #eef3ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: radial-gradient(
+        circle, 
+        #0077b6 0%, 
+        #f2b5d4 100%);
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, p {
-    text-shadow: 0px 0px 2px black; 
-    font-size: 50px;
+    text-shadow: 0 0 2px #121418;
+    font-size: 40px;
 }
 
-.mozart-image {
-    width: 150px;
+#mozart-image {
+    width: 200px;
     border-radius: 50%;
-    border: 6px solid #dc2f02;
+    border: 6px solid #68d8d6;
+    margin-bottom: 10px;
+}
+
+/*
+Challenge:
+Make the bday elements look like the
+provided design slide.
+*/
+
+#bday-age {
+    background: #7b435b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #7b435b;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #header {
